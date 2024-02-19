@@ -15,7 +15,6 @@ public class DockerTestController {
         data.put("message", "SpringBoot dockerization test");
         data.put("technologies", Arrays.asList("Java", "SpringBoot", "Docker"));
         data.put("devCode", 1234);
-        data.put("developer", "Agniswar Das");
         return data;
     }
 }
